@@ -58,5 +58,8 @@ const v9 = v7.diff(v8, 'days') // 1
 const v10 = moment();
 console.log(v10.valueOf());
 
+// Subtract dates - result is in ms
+const numOfMilliSecondsIn2016 = moment('2017-01-01') - moment('2016-01-01');
+
 // Some other available methods:
 // isBefore, isSame, isBetween
